@@ -1,0 +1,79 @@
+/* Header */
+div.title-area {
+	float: none !important;
+	margin: 10px auto !important;
+	width: 690px !important;
+	height: 150px !important;
+	max-width: 690px !important;
+	max-height: 150px !important;
+}
+h1.site-title {
+	width: 100% !important;
+	max-width: 100% !important;
+}
+header .wrap {
+	background-color: #74c8ea;
+}
+.site-title a {
+	background: url(http://debisbridal.com/wp-content/themes/executive-pro/fn-extras/img/assets/Debis_Bridal_San_Antonio_Logo.png) no-repeat !important;
+	width: 690px !important;
+	height: 150px !important;
+	max-width: 690px !important;
+	max-height: 150px !important;
+}
+@media (max-width: 800px) {
+	div.title-area {
+		width: 100% !important;
+		height: 80px !important;
+		max-width: 100% !important;
+	}
+	.site-title a {
+		background-size: 350px auto !important;
+		width: 350px !important;
+	}
+}
+#menu-main-menu {
+	float: none !important;
+	text-align: center;
+}
+aside.header-widget-area {
+	clear: both;
+	float: none !important;
+	margin: 0 auto;
+	width: 100% !important;
+	background-color: #f2f2f2;
+}
+.site-header .genesis-nav-menu a {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+.genesis-nav-menu .current-menu-item > a {
+	background-color: white !important;
+	color: #666 !important;
+	font-weight: bold !important;
+}
+aside.header-widget-area section.widget_nav_menu {
+	background: none;
+}
+ul.genesis-nav-menu {
+
+}
+p.home-p {
+	text-align: center;
+	padding: 20px;
+}
+
+/* Contact Page */
+div.store-hours {
+	display: table;
+}
+.store-hours .row {
+	display: table-row;
+}
+.store-hours .row .days, .store-hours .row .hours {
+	display: table-cell;
+}
+.row .days {
+	font-weight: bold;
+	padding-right: 30px;
+}
